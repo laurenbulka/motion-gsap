@@ -426,8 +426,15 @@ textarea {
 /* =============
     Demo
 ============= */
-.red-box {
+.box {
   height: 200px;
   width: 200px;
-  background-color: #f13232;
+}
+
+.red-box {
+  background-color: #f79862;
+}
+
+.teal-box {
+  background-color: #30d5c8;
 }

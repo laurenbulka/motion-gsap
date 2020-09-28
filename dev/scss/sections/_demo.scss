@@ -2,8 +2,15 @@
     Demo
 ============= */
 
-.red-box{
+.box{
     height: 200px;
     width: 200px;
-    background-color: $red;
+}
+
+.red-box{
+    background-color: $orange;
+}
+
+.teal-box{
+    background-color: $teal;
 }
