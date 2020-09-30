@@ -8,8 +8,8 @@ import {tealBoxAnimation} from "./tealBox.js"
 
 
  const mainTL = gsap.timeline();
-    mainTL.add(redBoxAnimation())
-       .add(tealBoxAnimation(),"-=5")
+    mainTL.add(redBoxAnimation(),"startTogether")
+       .add(tealBoxAnimation(),"startTogether")
        //.addlabel(tealBox)
        //.seek(tealBox)
        .play();
